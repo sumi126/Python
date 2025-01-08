@@ -5,7 +5,7 @@ print(round(x/y))
 name,age = ("Sumi",24)
 # concatenate only string, so we need typecast to use int, int,double, float convert to string is must for concatenating.
 print("Hello I'm "+ name + " I'm "+str(age))
-# String formating
+# String formatting
 #argument position
 print('Hello I am  {name} and  I am {age}'.format(name=name, age=age))
 # f- string
