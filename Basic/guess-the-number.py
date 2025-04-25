@@ -7,13 +7,13 @@ while True:
     count +=1
     try:
         if count % 2 == 0:
-            guess = int(input(f"{p2} enter your guess number: "))
+            guess = int(input(f"{p2} enter your guess number between 1 to 100: "))
         else:
-           guess = int(input(f"{p1} enter your guess number: "))
+           guess = int(input(f"{p1} enter your guess number between 1 to 100: "))
         if guess > guess_number:
-           print('Too High')
+           print(f'Please enter less than {guess}')
         elif guess < guess_number:
-           print('Too Low')
+           print(f'Please enter more than {guess}')
         else:
            if count % 2 == 0:
                 print(f'Congratulations {p2}! You are the winner.  ')
